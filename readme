@@ -1,0 +1,50 @@
+HTTP-query stress-array (Quasar)
+
+Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>
+
+The tool is developed in order to probe behaviour of caching web servers under the load. The code utilises event-driven
+architecture (epoll) and avoids data copying between kernel-space and user-land.
+
+<#threads> defines the number of worker-threads to be spawned during initialisation. A reasonable amount will be about
+CPU cores-count at the machine the tool is running at.
+
+Each worker-thread blackholes data in response to HTTP/1.1 GET request and sends such request as soon as all the data
+from the previous request are received by kernel. If server responds with 200 and friends, then Content-Length header
+must be present so as to know how much data to expect and when the time for the next request comes. It is possible,
+however, to handle other response codes, wherein GET request (TCP packet) will be sent after every response (packet).
+
+Each GET request includes "Connection: keep-alive" header. If server initiates TCP closure, Quasar closes its side of
+the connection and flag this condition as *SRVCLOSE* in corresponding time slot. If sending GET request yields an error,
+this error will be displayed in corresponding time slot and ramping goes on. If reading from server returns an error
+(e.g. server resets the pipe), Quasar terminates with that reason: no point to continue as a hard constraint has just
+been hit. A user can always terminate execution with Ctrl+C.
+
+<#connAsecond> defines the number of TCP connections Quasar establishes with the server in one go. The main thread
+(i.e. just one thread) creates TCP connections. Each connection is then assigned to a worker-thread in round-robin
+fashion, and "igniting" GET request is finally sent. If connecting yields an error, it is displayed in corresponding
+time slot and ramping goes on. If the given number of connections is made in less than a second, the thread sleeps
+to make it up for 1 second. Thus, statistics are output not faster than once a second. If making the bunch of the
+connections takes longer than a second, the thread does not sleep. The minimum of 1 second is easily changed at
+compile time, but one should remember that the longer the interval the smoother the output (due to averaging).
+
+<#versions> defines the number of URL versions (e.g. http://host/object?v=125 or &v=398475). The version revolves from
+zero to the specified number and gets changed with every GET request. This feature allows addressing arbitrary cache
+sizes even when only one file participates in the game. The URL must end with "?" or "&" in order "v=..." part to
+be appended. If not used, any number here will do.
+
+<URL> is given in this form: [http://]<host|ip>[:<port>]/[path|object][?|&]
+If "&" is used, do not forget to brace the URL in the quotation marks.
+
+The first constraint to overcome will most likely be an open files limit at the machine where Quasar runs. This is
+done via /etc/security/limits.conf file and restarting the login session. It makes sense to use tee tool to dub the
+output to a file, e.g. ./quasar 1 2 3 host/ |tee file
+
+LIMITATIONS:
+Linux specific [epoll(), TCP MSG_TRUNC]
+x86 specific [syscall()]
+No HTTPS support
+
+LICENSE:
+BSD 2 clause
+Copyright (c) 2015, Vitaly Zuevsky
+

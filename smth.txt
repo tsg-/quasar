@@ -1,0 +1,5700 @@
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:55 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:57 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:58 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:18:59 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:00 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:01 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: keep-alive
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
+GET /qq HTTP/1.1
+Host: 104.236.110.57
+User-Agent: Quasar
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 29 Dec 2014 21:19:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 1561
+Last-Modified: Fri, 26 Dec 2014 23:15:44 GMT
+Connection: close
+ETag: "549dec20-619"
+Accept-Ranges: bytes
+
+10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       204       822  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       196       790  *SRVCLOSE*
+      10       205       826  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       202       814  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       203       818  *SRVCLOSE*
+      10       197       794  *SRVCLOSE*
+      10       200       806  *SRVCLOSE*
+      10       199       802  *SRVCLOSE*
+      10       201       810  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       198       798  *SRVCLOSE*
+      10       193       778  *SRVCLOSE*
+^C
+root@oceanLondon:~/quasar# ./quasar 2 2 1 http://104.236.110.57/big.xml?
+#CONNECT       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]
+       0         0         0
+No Content-Length header:
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Dec 2014 23:06:45 GMT
+Content-Type: text/xml
+Content-Length: 62552174
+Last-Modified: Tue, 09 Sep 2014 14:12:49 GMT
+Connection: keep-alive
+ETag: "540f0ae1-3ba786e"
+Accept-Ranges: bytesroot@oceanLondon:~/quasar#
+
