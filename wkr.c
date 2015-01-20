@@ -4,7 +4,7 @@ void*
 wkr(void *arg)
 {
 	int		n, i, fd, got;
-	unsigned	k;	// Content-Length
+long	long		k;	// content length
 	char		*ptr, *ptc, buf[WEBHDR];
 	uint64_t	cd;	// connection data
 struct	qstat	*tt = arg;
@@ -64,7 +64,7 @@ struct  msghdr  mh = {  .msg_name = NULL,
 				}
 				*ptr = '\0';
 				if ( (ptc = strstr(buf, "Content-Length")) != NULL) {
-					if (sscanf(ptc, "%*s %u", &k) <= 0) {
+					if (sscanf(ptc, "%*s %llu", &k) <= 0) {
 						perror("sscanf");
 						fputs(strcat(ptc, "\n"), stderr);
 						exit(1);

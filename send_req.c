@@ -15,7 +15,7 @@ struct	iovec	iov[6] = {	{.iov_base = "GET ", .iov_len = 4},
 struct	msghdr	mh = {	.msg_name = NULL,
 			.msg_namelen = 0,
 			.msg_iov = iov,
-			.msg_iovlen = sizeof(iov),
+			.msg_iovlen = 6,	//?sizeof(iov),
 			.msg_control = NULL,
 			.msg_controllen = 0,
 			.msg_flags = 0};
@@ -24,8 +24,8 @@ struct	linger	xx = {.l_onoff = 1, .l_linger = 0};
 	a = vercur;
 	if (++a >= vernum) a = 0;
 	vercur = a;
-	snprintf(ver, sizeof(ver), "v=%llu", (unsigned long long int) a);
-	if (gp[gl - 1] == '?' || gp[gl - 1] == '&') iov[2].iov_len = strlen(ver);
+	snprintf(ver, sizeof(ver), "%llu", (unsigned long long int) a);
+	if (gp[gl - 1] == '?' || gp[gl - 1] == '&' || gp[gl - 1] == '_') iov[2].iov_len = strlen(ver);
 	else iov[2].iov_len = 0;
 	while ( (a = sendmsg(fd, &mh, MSG_DONTWAIT | MSG_NOSIGNAL)) < 0 && errno == EINTR);
 	if (a < 0) {

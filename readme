@@ -27,12 +27,12 @@ to make it up for 1 second. Thus, statistics are output not faster than once a s
 connections takes longer than a second, the thread does not sleep. The minimum of 1 second is easily changed at
 compile time, but one should remember that the longer the interval the smoother the output (due to averaging).
 
-<#versions> defines the number of URL versions (e.g. http://host/object?v=125 or &v=398475). The version revolves from
+<#versions> defines the number of URL versions (e.g. http://host/object?125 or &475 or _976). The version revolves from
 zero to the specified number and gets changed with every GET request. This feature allows addressing arbitrary cache
-sizes even when only one file participates in the game. The URL must end with "?" or "&" in order "v=..." part to
-be appended. If not used, any number here will do.
+sizes. The URL must end with "?" or "&" or "_" in order the numbers to be appended. If not used, any number on the
+command line will do.
 
-<URL> is given in this form: [http://]<host|ip>[:<port>]/[path|object][?|&]
+<URL> is given in this form: [http://]<host|ip>[:<port>]/[path|object][?|&|_]
 If "&" is used, do not forget to brace the URL in the quotation marks.
 
 The first constraint to overcome will most likely be an open files limit at the machine where Quasar runs. This is
@@ -45,6 +45,7 @@ x86 specific [syscall()]
 No HTTPS support
 
 LICENSE:
-BSD 2 clause
-Copyright (c) 2015, Vitaly Zuevsky
+BSD 2 Clause
+(c) 2015, BBC
+(c) 2015, Vitaly Zuevsky
 
