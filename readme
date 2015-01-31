@@ -25,7 +25,8 @@ fashion, and "igniting" GET request is finally sent. If connecting yields an err
 time slot and ramping goes on. If the given number of connections is made in less than a second, the thread sleeps
 to make it up for 1 second. Thus, statistics are output not faster than once a second. If making the bunch of the
 connections takes longer than a second, the thread does not sleep. The minimum of 1 second is easily changed at
-compile time, but one should remember that the longer the interval the smoother the output (due to averaging).
+compile time, but one should remember that the longer the interval the smoother the output (due to averaging). The
+output line may be repeated to normalize the frequency of the output if making connections lingers.
 
 <#versions> defines the number of URL versions (e.g. http://host/object?125 or &475 or _976). The version revolves from
 zero to the specified number and gets changed with every GET request. This feature allows addressing arbitrary cache
@@ -46,6 +47,5 @@ No HTTPS support
 
 LICENSE:
 BSD 2 Clause
-(c) 2015, BBC
 (c) 2015, Vitaly Zuevsky
 

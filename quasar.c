@@ -2,8 +2,8 @@
 /*
  * HTTP server load testing tool
  * server must provide Content-Length header
- * URL: [http://]<host|ip>[:<port>]/object[?|&]
- * may be appended with ?v or &v = <version>
+ * URL: [http://]<host|ip>[:<port>]/object[?|&|_]
+ * may be appended with ?, &, or _<version>
  * nofile: /etc/security/limits.conf
  * tee: stdbuf -o L ./quasar 2 20 0 "http://host/qq?" |tee qt
  */
@@ -110,17 +110,19 @@ meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>\n", std
 		allrps = allrps * 1000 / tick.tv_sec;	// rps
 		allbps = allbps * 8 / tick.tv_sec;	// kbps
 		/* presentation block (connum rps bps scf sre coe): */
-		printf("%*d  %*d  %*d ", 8, connum, 8, (int) allrps, 8, (int) allbps);
-		if (scf) printf(" *SRVCLOSE*");
-		if (sre) {
-			strerror_r(sre, erbuf, sizeof(erbuf));
-			printf(" SND: %s", erbuf);
+		for (i = 0; tick.tv_sec > (i * 1000 + 500) * PERIOD; i++) {
+			printf("%*d  %*d  %*d ", 8, connum, 8, (int) allrps, 8, (int) allbps);
+			if (scf) printf(" *SRVCLOSE*");
+			if (sre) {
+				strerror_r(sre, erbuf, sizeof(erbuf));
+				printf(" SND: %s", erbuf);
+			}
+			if (coe) {
+				strerror_r(coe, erbuf, sizeof(erbuf));
+				printf(" CON: %s", erbuf);
+			}
+			printf("\n");
 		}
-		if (coe) {
-			strerror_r(coe, erbuf, sizeof(erbuf));
-			printf(" CON: %s", erbuf);
-		}
-		printf("\n");
 		fflush(stdout);
 		coe = sre = scf = 0;	// we handle flags off mutex
 		/* connection block: */
