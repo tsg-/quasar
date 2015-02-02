@@ -81,7 +81,8 @@ meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>\n", std
 	pthread_mutex_init(&th[tnum].mx, NULL);	// dummy mutex for this thread
 	/* ramping up: */
 	fputs("    #TCP       RPS      kbps  [SRVCLOSE|SNDERROR|CONERROR]\n", stdout);
-	bzero(&tick, sizeof(tick));
+	clock_gettime(CLOCK_MONOTONIC, &tick);
+	tick.tv_sec -= 1;
 	connum = k = 0;	// k is round-robin thread index
 	for (; ;) {
 		allcox = allrps = allbps = 0;
