@@ -31,19 +31,38 @@ struct  msghdr  mh = {  .msg_name = NULL,
 				// we blackhole incoming data:
 				while ( (got = syscall(SYS_recvmsg, fd, &mh, MSG_TRUNC)) < 0 && errno == EINTR);
 				if (got < 0) {
-					perror("blackhole");
-					exit(1);
+					coe = errno;
+					while (close(fd) < 0 && errno == EINTR);
+					pthread_mutex_lock(&tt->mx);
+					tt->cox++;
+					pthread_mutex_unlock(&tt->mx);
+					continue;
+				}
+				if (got == 0) {
+					while (close(fd) < 0 && errno == EINTR);
+					scf = 1;
+					pthread_mutex_lock(&tt->mx);
+					tt->cox++;
+					pthread_mutex_unlock(&tt->mx);
+					continue;
 				}
 				pthread_mutex_lock(&tt->mx);
 				tt->bps += got;
 				pthread_mutex_unlock(&tt->mx);
-				if ((cd -= got) == 0) send_req(fd, tt);
+				if ((cd -= got) <= 0) {
+					send_req(fd, tt);
+					cd = 0;
+				}
 			} else {
 				// we receive HTTP headers:
 				while ( (got = recv(fd, buf, WEBHDR - 1, 0)) < 0 && errno == EINTR);
 				if (got < 0) {
-					perror("recv_headers");
-					exit(1);
+					coe = errno;
+					while (close(fd) < 0 && errno == EINTR);
+					pthread_mutex_lock(&tt->mx);
+					tt->cox++;
+					pthread_mutex_unlock(&tt->mx);
+					continue;
 				}
 				if (got == 0) {
 					while (close(fd) < 0 && errno == EINTR);
@@ -82,7 +101,10 @@ struct  msghdr  mh = {  .msg_name = NULL,
 					// not 2xx and no Content-Length header => ok, no more data to come
 					cd = 0;
 				}
-				if (cd == 0) send_req(fd, tt);
+				if (cd <= 0) {
+					send_req(fd, tt);
+					cd = 0;
+				}
 			}
 			// we don't get 0 on read() and closure triggers RST:
 			/*if (events[i].events & (EPOLLRDHUP | EPOLLHUP)) {

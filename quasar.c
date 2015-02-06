@@ -19,7 +19,7 @@ struct	addrinfo	hints, *res, *r;
 struct	epoll_event	ev = {.events = EPOLLIN};
 
 	if (argc < 5) {
-meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>\n", stderr);
+meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL> [noramp]\n", stderr);
 		exit(1);
 	}
 	if (	sscanf(argv[1], "%d", &tnum) < 1 ||\
@@ -149,6 +149,7 @@ meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>\n", std
 			if (++k >= tnum) k = 0;
 			send_req(cfd, &th[tnum]);	// here the dummy mutex fires
 		}
+		if (argc == 6) ramp = 0;	// no further ramping up
 		memcpy(&tick, &tock, sizeof(tick));
 		tock.tv_sec += PERIOD;
 		while (clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &tock, NULL) < 0 && errno == EINTR);

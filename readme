@@ -1,6 +1,6 @@
 HTTP-query stress-array (Quasar)
 
-Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL>
+Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL> [noramp]
 
 The tool is developed in order to probe behaviour of caching web servers under the load. The code utilises event-driven
 architecture (epoll) and avoids data copying between kernel-space and user-land.
@@ -16,8 +16,7 @@ however, to handle other response codes, wherein GET request (TCP packet) will b
 Each GET request includes "Connection: keep-alive" header. If server initiates TCP closure, Quasar closes its side of
 the connection and flag this condition as *SRVCLOSE* in corresponding time slot. If sending GET request yields an error,
 this error will be displayed in corresponding time slot and ramping goes on. If reading from server returns an error
-(e.g. server resets the pipe), Quasar terminates with that reason: no point to continue as a hard constraint has just
-been hit. A user can always terminate execution with Ctrl+C.
+(e.g. server resets the pipe), Quasar also displays that. A user can always terminate execution with Ctrl+C.
 
 <#connAsecond> defines the number of TCP connections Quasar establishes with the server in one go. The main thread
 (i.e. just one thread) creates TCP connections. Each connection is then assigned to a worker-thread in round-robin
@@ -35,6 +34,9 @@ command line will do.
 
 <URL> is given in this form: [http://]<host|ip>[:<port>]/[path|object][?|&|_]
 If "&" is used, do not forget to brace the URL in the quotation marks.
+
+[noramp] can be any symbol or string: if there are 5 arguments, Quasar spawns the bunch of connections specified in
+<#connAsecond> just once - on the very first iteration.
 
 The first constraint to overcome will most likely be an open files limit at the machine where Quasar runs. This is
 done via /etc/security/limits.conf file and restarting the login session. It makes sense to use tee tool to dub the
