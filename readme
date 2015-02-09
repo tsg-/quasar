@@ -36,7 +36,7 @@ command line will do.
 If "&" is used, do not forget to brace the URL in the quotation marks.
 
 [noramp] can be any symbol or string: if there are 5 arguments, Quasar spawns the bunch of connections specified in
-<#connAsecond> just once - on the very first iteration.
+<#connAsecond> just once - on the very first iteration. And then just sustain this number if closure occurs.
 
 The first constraint to overcome will most likely be an open files limit at the machine where Quasar runs. This is
 done via /etc/security/limits.conf file and restarting the login session. It makes sense to use tee tool to dub the

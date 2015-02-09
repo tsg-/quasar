@@ -127,7 +127,7 @@ meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL> [noramp
 		fflush(stdout);
 		coe = sre = scf = 0;	// we handle flags off mutex
 		/* connection block: */
-		for (i = 0; i < ramp; i++) {
+		for (i = 0; (argc < 6 && i < ramp) || (argc == 6 && connum < ramp); i++) {
 			r = res;
 			do {
 				cfd = socket(r->ai_family, r->ai_socktype, r->ai_protocol);
@@ -149,7 +149,6 @@ meh:		fputs("Usage: ./quasar <#threads> <#connAsecond> <#versions> <URL> [noramp
 			if (++k >= tnum) k = 0;
 			send_req(cfd, &th[tnum]);	// here the dummy mutex fires
 		}
-		if (argc == 6) ramp = 0;	// no further ramping up
 		memcpy(&tick, &tock, sizeof(tick));
 		tock.tv_sec += PERIOD;
 		while (clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &tock, NULL) < 0 && errno == EINTR);
