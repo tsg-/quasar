@@ -16,19 +16,29 @@
 #define WEBHDR	512		// HTTP response header buffer size
 #define BHSIZE	998888999	// blackhole size
 #define PERIOD	1		// logically report every second
+#define MAXVER	1000
+
+/* modes */
+#define MODE_FILL	0
+#define MODE_READ	1
 
 struct	qstat {
-	int		efd;	// epoll file descriptor
-	int		cox;	// connections closed
-	uint64_t	rps;
-	uint64_t	bps;
-pthread_mutex_t		mx;
-	}	*th;		// thread specific data
+  int		id;	// thread id
+  pthread_t	tid;	// pthread instance
+  int		efd;	// epoll file descriptor
+  int		cox;	// connections closed
+  uint64_t	twoh;	// 200 OKs;
+  uint64_t	rps;
+  uint64_t	bps;
+  pthread_mutex_t		mx;
+  uint64_t	ver[MAXVER];
+}	*th;		// thread specific data
 int		scf;		// server-side connection closure flag
 int		sre;		// last send_req() error
 int		coe;		// new connection error
 int		hl, gl;		// HOST and GET sizes
 char		*hp, *gp;	// HOST and GET pointers
 uint64_t	vernum, vercur;	// version control of HTTP GET
+int		running;	// global running flag
 
 void	*wkr(void*), send_req(int, struct qstat*);

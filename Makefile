@@ -4,7 +4,7 @@
 
 TARGET	= quasar
 CC	= gcc
-CFLAGS	= -g -O2 -Wall -pthread
+CFLAGS	= -g -O3 -Wall -pthread
 LIBS	= -lrt
 
 HEADERS = $(wildcard *.h)
@@ -21,4 +21,4 @@ $(TARGET): $(OBJECTS)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-#	-rm -f *.o
+	-rm -f *.o
