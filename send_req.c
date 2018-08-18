@@ -22,23 +22,26 @@ void send_req(int fd, struct qstat *tt)
         .msg_flags = 0
     };
     struct linger xx = {.l_onoff = 1,.l_linger = 0 };
+    int r = 0, x = 0;
 
-    int a = (int) tt->curver++ % MAXVER;
+    // int a = (int) ++tt->curver % MAXVER;
+    x = tt->ver[(tt->curver % (MAXVER - 1))];
+    ++tt->curver;
 
     // format /test/t0009_00522.html
     snprintf(ver, sizeof(ver), "%04llu_%05llu.html",
              (unsigned long long int) tt->id,
-             (unsigned long long int) tt->ver[a]);
+             (unsigned long long int) x);
     if ((gp[gl - 1] == '?') || (gp[gl - 1] == '&') || (gp[gl - 1] == '_')) {
         iov[2].iov_len = strlen(ver);
     } else {
         iov[2].iov_len = 0;
     }
-    while (((a = sendmsg(fd, &mh, MSG_DONTWAIT | MSG_NOSIGNAL)) < 0)
+    while (((r = sendmsg(fd, &mh, MSG_DONTWAIT | MSG_NOSIGNAL)) < 0)
            && (errno == EINTR)) {
         ;
     }
-    if (a < 0) {
+    if (r < 0) {
         sre = errno;
         setsockopt(fd, SOL_SOCKET, SO_LINGER, &xx, sizeof(xx));
         while ((close(fd) < 0) && (errno == EINTR)) {

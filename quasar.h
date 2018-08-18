@@ -42,3 +42,5 @@ char *hp, *gp;                  // HOST and GET pointers
 int running;                    // global running flag
 
 void *wkr(void *), send_req(int, struct qstat *);
+
+

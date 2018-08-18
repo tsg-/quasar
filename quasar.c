@@ -180,9 +180,8 @@ int main(int argc, char **argv)
         tick.tv_sec = tick.tv_nsec / 1000000 + tick.tv_sec * 1000;      //milliseconds
         allrps = allrps * 1000 / tick.tv_sec;   // rps
         allbps = allbps * 8 / tick.tv_sec;      // kbps
-        alllat =
-            (allrps) ? (float) tick.tv_sec / (float) alltwoh /
-            (float) updfreq : 0;
+        alllat = (allrps) ?
+            (float) tick.tv_sec / (float) alltwoh / (float) updfreq : 0;
         /* Presentation block (connum rps bps scf sre coe): */
         for (i = 0; tick.tv_sec > (i * 1000 + 500) * updfreq; i++) {
             printf(" %*ld  %*d  %*d  %*d %*f",
@@ -252,10 +251,6 @@ int main(int argc, char **argv)
     for (i = 0; i < tnum; i++) {
         pthread_join(th[i].tid, NULL);
     }
-    printf(" %*ld  %*d  %*d  %*d %*f\n",
-           11, (tock.tv_sec - start.tv_sec),
-           8, (int) allrps,
-           10, (int) alltwoh, 9, (int) allbps, 13, (float) alllat);
     free(th);
     return 0;
 }

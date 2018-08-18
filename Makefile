@@ -4,7 +4,7 @@
 
 TARGET	= quasar
 CC	= gcc
-CFLAGS	= -g -O3 -Wall -pthread
+CFLAGS	= -ggdb -Wall -pthread -rdynamic
 LIBS	= -lrt
 
 HEADERS = $(wildcard *.h)
