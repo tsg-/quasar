@@ -12,7 +12,7 @@ OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
 
 .PHONY: all clean
 
-all: $(TARGET) clean
+all: $(TARGET)
 
 $(TARGET): $(OBJECTS)
 	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
@@ -21,4 +21,5 @@ $(TARGET): $(OBJECTS)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	-rm -f *.o
+	-rm -f $(OBJECTS)
+	-rm -f $(TARGET)
